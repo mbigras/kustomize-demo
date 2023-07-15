@@ -1,0 +1,17 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: app
+spec:
+  template:
+    spec:
+      containers:
+        - name: app
+          image: mbigras/app:2023-07-15
+          env:
+            - name: ENV
+              value: env1
+            - name: COLOR
+              value: cheapblue
+            - name: PASSWORD
+              value: s3cr3t # Todo: Implement better secrets management.

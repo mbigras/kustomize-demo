@@ -1,0 +1,9 @@
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+resources:
+  - ../../base
+patches:
+  - path: deployment.yaml
+components:
+  - ../../components/feature1
+  # - ../../components/feature2 # Todo: Fix feature2 feature--broke in env2 environment.

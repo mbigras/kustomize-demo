@@ -125,4 +125,4 @@ The following procedure describes how to create an _app_ Kubernetes Deployment w
 
 ## Conclusion
 
-You can freely compose Kubernetes YAML objects Kustomize base, overlays, and components. Bases and overlays compose like inheritance. Components compose like plug and play.
+You can freely compose Kubernetes YAML objects with Kustomize bases, overlays, and components. Bases and overlays compose like inheritance. Components compose like plug and play.
